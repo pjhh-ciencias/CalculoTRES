@@ -198,7 +198,7 @@
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p>Sean $u=(4,2)$, $v=(1,-3)$. En cada uno de los siguientes ejercicios
-        encuentra el vector $w$ y realiza bosquejo de $u,v$ y $w$.
+        encuentra el vector $w$ y realiza un bosquejo de $u,v$ y $w$.
         <ol>
           <li>$w = 2u + v$</li><br>
           <li>$w = \frac{1}{2}u + 3 v$</li><br>
@@ -229,9 +229,250 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>Encuentra las ecuaciones de la rectas con la información dada</p>
+    <ol>
+        <li>La recta que pasa por el punto $(1,0,1)$ con vector dirección $v=(-1,-2,-3)$.</li> 
+        <li>La recta que pasa por los puntos $(3,2,1)$ y $(0,1,0)$.</li> 
+        <li>La recta que pasa por el punto $(2,4,6)$ y que es paralela al eje $x$.</li> 
+        <li>La recta que pasa por el punto $(-1,-2,-3)$ y que es perpendicular al plano $yz$.</li> 
+    </ol></p>
+      
+    </div>
+
+    <!-- <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>Encuentra todos los puntos de intersección de la recta $x=2+5t,y=5-2t,z=6+3t$ 
+        con los planos coordenados.
+    </p> -->
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>
+        Determina si los puntos dados están  o no en une misma recta:
+    </p>
+  <ol>
+    <li>$(2,2,4)$, $(1,2,5)$, $(1,2-5)$.</li> 
+    <li>$(1,-1,-2)$, $(3,0,1)$, $(5,-1,0)$</li> 
+  </ol>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>
+        Considera la linea recta en $\mathbb{R}^2$ con ecuación paramétrica
+        $$p=(0,1)+t(1,1)=(t,t+1).$$
+    </p>
+    <ol>
+        <li>Encuentra $t_0$ que muestre que  $(2,3)=(0,1)+t_0(1,1)$. Es decir, $p_1=(2,3)$  está en la linea recta.</li> 
+        <li>El vector $u=(4,4)$ está en la misma dirección que $v$ (son linealmente dependientes). Por lo tanto
+            la misma recta tiene ecuación paramétrica $(2,3)+s(4,4)$, con $s$ un distinto parámetro. 
+            Encuentra $s_0$ tal que $(0,1)=p_1+s_0u$.</li> 
+
+            
+        <li>
+            Generaliza el inciso anterior, es decir, dado cualquier punto $p=(t,t+1)$ en la recta, encuentra  $s$ (en términos de $t$) tal que
+            $p=p_1+su$.
+        </li> 
+    </ol>
+    <p>
+        Nota: se puede pensar al parámetro $t$ como las coordenas del punto sobre la recta. Estas coordenadas dependen del vector
+        dirección y el punto en la recta que tomamos. Por lo tanto $t$ depende de $p_0$ y $v$,  $s$ depende de $p_1$ y $u$. La relación
+        entre $t$ y $s$ se puede pensar como una fórmula de  cambio de coordenadas. 
+    </p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>Describe el conjunto de puntos $p=(x,y)$ en el  plano que satisface</p>
+      
+      <ol>
+         <li>
+             $\|p\|_2=3$
+         </li> 
+         <li>
+             $\|p-\hat{j}\|_2=6$
+         </li>
+         <li>
+             $p\cdot \hat{i}=2$
+         </li>
+         <li>
+             $p\cdot \hat{i} = \|p\|_2$
+         </li>
+      </ol>
+      <p>Recuerda que $\hat{i}=(1,0)$ y $\hat{j}=(0,1)$.</p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p> Encuentra el área del triángulo con vértices en los puntos $(1,1), (0,3)$ y $(4,5)$.</p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p> Encuentra los valores de $x$ para los cuales los vectores $(x,2x,1)$ y $(4x,-1,x)$ son ortogonales.</p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p> Demuestra que, para todos $p,q\in \mathbb{R}^3$
+        $$
+        \| p-q\|^2= \|p\|^2-2 \langle p, q \rangle +\|q\|^2.
+        $$</p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>Sean $u,v,w\in \mathbb{R}^3$ tres vectores distintos de cero y ortogonales dos a dos.
+        <ol>
+          <li>
+             Demuestra que
+             el conjunto $\{u,v,w\}$ es linealmente independiente.
+          </li> 
+          <li>
+             Es un hecho, no lo demuestres, que un conjunto de tres vectores en $\mathbb{R}^3$, linealmente
+             independientes, genera $\mathbb{R}^3$, es decir para todo $p\in \mathbb{R}^3$,
+             existen escalares $\alpha,\beta,\gamma$ tales que $p=\alpha u+ \beta v +\gamma w$.
+             Usando lo anterior demuestra que, para todo $p\in \mathbb{R}^3$
+             $$
+             p=\frac{\langle p, u \rangle}{\|u\|^2} u + \frac{\langle p,v\rangle}{\|v\|^2} v+
+             \frac{\langle p,w \rangle}{\|w\|^2} w.
+             $$
+          </li></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p><b>Otra demostración de la desigualdad de Cauchy-Schwartz</b>
+        <p>
+           Sean $p$ y $q$ dos vectores en $\mathbb{R}^n$. Entonces
+           $$
+           |\langle p,q \rangle| \leq \|p\|\|q\|.
+           $$
+        </p> 
+        <p>
+           Sugerencia: considera la función $f(t)=\|p+tq\|^2$, $t\in \mathbb{R}$. Prueba que $f$ es una
+           cuadrática cuya gráfica
+           siempre está por arriba del eje horizontal y finalmente  encuentra su discriminante.
+        </p>  
+
+
+      </p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p><b>Aún otra demostración de Cauchy-Schwartz</b>
+        <p>
+            Sea $v$ un vector arbitrario y $u$ un vector unitario, en un espacio con producto interior.
+        </p>
+         
+         <ol>
+            <li>
+                Usando las propiedades del producto interior demuestra que
+                $$
+                0\leq \| v- \langle u,v \rangle u\|^2=\|v\|^2-(\langle u , v \rangle )^2.
+                $$
+            </li>
+            <li>
+                Con el inciso anterior da otra demostración de la desigualdad de Cauchy-Schwartz.
+            </li>
+            <li>
+                Demuestra que si $|\langle u,  v \rangle |=\|u\|\|v\|$ entonces $v=\langle u, v \rangle  u$.
+            </li> 
+           <li>
+            Usando el ejercicio anterior muestra que la igualdad en la desigualdad de Cauchy-Schwartz
+            se da si y sólo si uno de los vectores es múltiplo escalar del otro (es decir, 
+            si son linealmente dependientes).
+           </li>
+        
+         </ol></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>Para un vector $p=(p_1\dots, p_n) $ demuestra
+        <ol>
+            <li>
+                      $	\|p\| \leq \sum_{i=1}^n|p_i| $. 
+                  </li>
+                  <li>
+                      para toda $i=1,\dots, n$, $|p_i| \leq \|p\|$
+                  </li>
+        
+        </ol></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p> Usar la dsigualdad de Cauchy-Schwarz para probar que, para cualesqueira tres
+        reales $a,b,c$
+        $$
+        (a+b+c)^2 \leq 3(a^2+b^2+c^2)
+        $$</p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <b>Otra demostración de la desigualdad de Cauchy-Schwartz</b>
+        <p>
+            Sean $x_1,\dots, x_n, y_1,\dots, y_n \in \mathbb{R}.$
+        </p>
+
+         <ol>
+            <li>
+                Demostrar la identidad de Lagrange:
+        
+                $$
+                \bigg( \sum_{i=1}^n x_iy_i \bigg)^2=\bigg( \sum_{i=1}^n x_i^2 \bigg)\bigg( \sum_{i=1}^n y_i^2 \bigg)-
+                \sum_{i < j} (x_iy_j -x_jy_i)^2
+                $$
+       
+                
+            </li>
+            <li>
+                Con el inciso anterior da otra demostración de la desigualdad de Cauchy-Schwartz, es decir:
+                $$
+               \left| \sum_{i=i}^n x_iy_i \right| \leq \left( \sum_{i=1}^n x_i^2 \right)^{1/2}\left( \sum_{i=1}^n y_i^2 \right)^{1/2} 
+                $$
+            </li> 
+
+       </ol>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p>
+        Sea $L$ una línea recta con ecuación $p_0+tv$. Supongamos que $p_1\in L$ y que $u\ne 0$ es otro vector linealmente
+        dependiente con $v$, para que $p_1+su$ sea otra ecuación paramétrica de $L$. Demuestra que si
+        $$
+        p_0+tv=p_1+su
+        $$
+        entonces $s= \frac{1}{\|u\|^2} \langle (p_0-p_1), u \rangle + t \frac{\langle v,  u \rangle}{\|u\|^2}$.
+    </p>
+
+   <p>
+    Sugerencia: haz producto  interior con el vector $\frac{1}{\|u\|^2}u$ en cada uno de los lados 
+    de la igualdad $p_0+tv=p_1+su$  y utiliza las propiedades del
+   producto interior para despejar \(s\).
+   </p>
+      
+    </div>
+<!-- 
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p></p>
       
     </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p></p>
@@ -252,5 +493,49 @@
       <p></p>
       
     </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
+      <p></p>
+      
+    </div>
+
+     -->
 
 </body>
