@@ -358,9 +358,10 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
-      <p><b>Aún más,otra demostración de Cauchy-Schwartz</b>
+      <p><b>Otra demostración más de la desigualdad de  Cauchy-Schwartz</b>
         <p>
-            Sea $v$ un vector arbitrario y $u$ un vector unitario, en un espacio con producto interior.
+            Sea $v$ un vector arbitrario y $u$ un <b>vector unitario</b> (i.e. $\|u\|=1$), 
+            en un espacio vectorial con producto interior.
         </p>
          
          <ol>
@@ -369,13 +370,13 @@
                 $$
                 0\leq \| v- \langle u,v \rangle u\|^2=\|v\|^2-(\langle u , v \rangle )^2.
                 $$
-            </li>
+            </li><br>
             <li>
                 Con el inciso anterior da otra demostración de la desigualdad de Cauchy-Schwartz.
-            </li>
+            </li><br>
             <li>
                 Demuestra que si $|\langle u,  v \rangle |=\|u\|\|v\|$ entonces $v=\langle u, v \rangle  u$.
-            </li> 
+            </li><br>
            <li>
             Usando el ejercicio anterior muestra que la igualdad en la desigualdad de Cauchy-Schwartz
             se da si y sólo si uno de los vectores es múltiplo escalar del otro (es decir, 
@@ -387,22 +388,18 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
-      <p>Para un vector $p=(p_1\dots, p_n) $ demuestra
+      <p>Sea $p=(p_1\dots, p_n)$ un vector en $\mathbb{R}^{n}$ demuestra
         <ol>
-            <li>
-                      $	\|p\| \leq \sum_{i=1}^n|p_i| $. 
-                  </li>
-                  <li>
-                      para toda $i=1,\dots, n$, $|p_i| \leq \|p\|$
-                  </li>
+            <li>$\|p\| \leq \displaystyle{\sum_{i=1}^n|p_i|}$.</li>
+            <li>Para toda $i=1,\dots, n$, $|p_i| \leq \|p\|$.</li>
         
         </ol></p>
       
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
-      <p> Usar la dsigualdad de Cauchy-Schwarz para probar que, para cualesqueira tres
-        reales $a,b,c$
+      <p> Usar la desigualdad de Cauchy-Schwarz para probar que, para cualesquiera tres números reales
+        reales $a,b,c$ se satisface:
         $$
         (a+b+c)^2 \leq 3(a^2+b^2+c^2)
         $$</p>
@@ -410,14 +407,14 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
-      <b>Otra demostración de la desigualdad de Cauchy-Schwartz</b>
+      <b>Aún más, otra demostración de la desigualdad de Cauchy-Schwartz</b>
         <p>
             Sean $x_1,\dots, x_n, y_1,\dots, y_n \in \mathbb{R}.$
         </p>
 
          <ol>
             <li>
-                Demostrar la identidad de Lagrange:
+                Demostrar la <b>identidad de Lagrange</b>:
         
                 $$
                 \bigg( \sum_{i=1}^n x_iy_i \bigg)^2=\bigg( \sum_{i=1}^n x_i^2 \bigg)\bigg( \sum_{i=1}^n y_i^2 \bigg)-
@@ -444,11 +441,10 @@
         $$
         p_0+tv=p_1+su
         $$
-        entonces $s= \frac{1}{\|u\|^2} \langle (p_0-p_1), u \rangle + t \frac{\langle v,  u \rangle}{\|u\|^2}$.
+        entonces $s=\displaystyle{\frac{1}{\|u\|^2} \langle (p_0-p_1), u \rangle + t \frac{\langle v,  u \rangle}{\|u\|^2}}$.
     </p>
 
-   <p>
-    Sugerencia: haz producto  interior con el vector $\frac{1}{\|u\|^2}u$ en cada uno de los lados 
+   <p><b>Sugerencia:</b> Calcula el producto  interior con el vector $\displaystyle{\frac{1}{\|u\|^2}}u$ en cada uno de los lados 
     de la igualdad $p_0+tv=p_1+su$  y utiliza las propiedades del
    producto interior para despejar \(s\).
    </p>
