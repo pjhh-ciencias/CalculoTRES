@@ -196,7 +196,7 @@
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p>Sean $u=(4,2)$, $v=(1,-3)$. En cada uno de los siguientes ejercicios
         encuentra el vector $w$ y realiza un bosquejo de $u,v$ y $w$.
-        <ol>
+        <ol class="two-column">
           <li>$w = 2u + v$</li><br>
           <li>$w = \frac{1}{2}u + 3 v$</li><br>
           <li>$w = u - 2 v$</li><br>
@@ -220,7 +220,7 @@
         y = -s \\
         z = 4 + s
       \end{cases} $$
-    Determine si las rectas se intersectan o no. Si lo hacen   
+    Determine si las rectas se intersectan o no. Si lo hacen, encuentra el punto de intersección.
     </p>
       
     </div>
@@ -228,10 +228,10 @@
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p>Encuentra las ecuaciones de la rectas con la información dada</p>
     <ol>
-        <li>La recta que pasa por el punto $(1,0,1)$ con vector dirección $v=(-1,-2,-3)$.</li> 
-        <li>La recta que pasa por los puntos $(3,2,1)$ y $(0,1,0)$.</li> 
-        <li>La recta que pasa por el punto $(2,4,6)$ y que es paralela al eje $x$.</li> 
-        <li>La recta que pasa por el punto $(-1,-2,-3)$ y que es perpendicular al plano $yz$.</li> 
+        <li>La recta que pasa por el punto $(1,0,1)$ con vector dirección $v=(-1,-2,-3)$.</li><br>
+        <li>La recta que pasa por los puntos $(3,2,1)$ y $(0,1,0)$.</li><br>
+        <li>La recta que pasa por el punto $(2,4,6)$ y que es paralela al eje $x$.</li><br>
+        <li>La recta que pasa por el punto $(-1,-2,-3)$ y que es perpendicular al plano $yz$.</li><br>
     </ol></p>
       
     </div>
@@ -247,8 +247,8 @@
       <p>
         Determina si los puntos dados están  o no en une misma recta:
     </p>
-  <ol>
-    <li>$(2,2,4)$, $(1,2,5)$, $(1,2-5)$.</li> 
+  <ol class="two-column">
+    <li>$(2,2,4)$, $(1,2,5)$, $(1,2-5)$.</li> <br>
     <li>$(1,-1,-2)$, $(3,0,1)$, $(5,-1,0)$</li> 
   </ol>
       
@@ -260,10 +260,10 @@
         $$p=(0,1)+t(1,1)=(t,t+1).$$
     </p>
     <ol>
-        <li>Encuentra $t_0$ que muestre que  $(2,3)=(0,1)+t_0(1,1)$. Es decir, $p_1=(2,3)$  está en la linea recta.</li> 
-        <li>El vector $u=(4,4)$ está en la misma dirección que $v$ (son linealmente dependientes). Por lo tanto
+        <li>Encuentra $t_0$ tal que  $(2,3)=(0,1)+t_0(1,1)$. Es decir, $p_1=(2,3)$  está en la linea recta.</li><br>
+        <li>El vector $u=(4,4)$ está en la misma dirección que $v=(1,1)$ (son linealmente dependientes). Por lo tanto
             la misma recta tiene ecuación paramétrica $(2,3)+s(4,4)$, con $s$ un distinto parámetro. 
-            Encuentra $s_0$ tal que $(0,1)=p_1+s_0u$.</li> 
+            Encuentra $s_0$ tal que $(0,1)=p_1+s_0u$.</li><br>
 
             
         <li>
@@ -271,10 +271,9 @@
             $p=p_1+su$.
         </li> 
     </ol>
-    <p>
-        Nota: se puede pensar al parámetro $t$ como las coordenas del punto sobre la recta. Estas coordenadas dependen del vector
+    <p><b>Nota:</b>  Se puede pensar al parámetro $t$ como las coordenas del punto sobre la recta. Estas coordenadas dependen del vector
         dirección y el punto en la recta que tomamos. Por lo tanto $t$ depende de $p_0$ y $v$,  $s$ depende de $p_1$ y $u$. La relación
-        entre $t$ y $s$ se puede pensar como una fórmula de  cambio de coordenadas. 
+        entre $t$ y $s$ se puede pensar como una <b>fórmula de  cambio de coordenadas</b>. 
     </p>
       
     </div>
@@ -282,7 +281,7 @@
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p>Describe el conjunto de puntos $p=(x,y)$ en el  plano que satisface</p>
       
-      <ol>
+      <ol class="two-column">
          <li>
              $\|p\|_2=3$
          </li> 
@@ -296,7 +295,7 @@
              $p\cdot \hat{i} = \|p\|_2$
          </li>
       </ol>
-      <p>Recuerda que $\hat{i}=(1,0)$ y $\hat{j}=(0,1)$.</p>
+      <p><b>Recordatorio:</b> $\hat{i}=(1,0)$ y $\hat{j}=(0,1)$.</p>
       
     </div>
 
@@ -324,11 +323,13 @@
           <li>
              Demuestra que
              el conjunto $\{u,v,w\}$ es linealmente independiente.
-          </li> 
-          <li>
-             Es un hecho, no lo demuestres, que un conjunto de tres vectores en $\mathbb{R}^3$, linealmente
-             independientes, genera $\mathbb{R}^3$, es decir para todo $p\in \mathbb{R}^3$,
-             existen escalares $\alpha,\beta,\gamma$ tales que $p=\alpha u+ \beta v +\gamma w$.
+          </li> <br>
+          <li>Asume (no lo demuestres) que un conjunto de tres vectores en $\mathbb{R}^3$, linealmente
+             independientes, <b>genera</b> a $\mathbb{R}^3$, es decir para todo $p\in \mathbb{R}^3$,
+             existen escalares $\alpha,\beta$ y $\gamma$ tales que:
+             
+             $$p=\alpha u+ \beta v +\gamma w.$$
+             
              Usando lo anterior demuestra que, para todo $p\in \mathbb{R}^3$
              $$
              p=\frac{\langle p, u \rangle}{\|u\|^2} u + \frac{\langle p,v\rangle}{\|v\|^2} v+
@@ -340,16 +341,15 @@
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
       <p><b>Otra demostración de la desigualdad de Cauchy-Schwartz</b>
-        <p>
-           Sean $p$ y $q$ dos vectores en $\mathbb{R}^n$. Entonces
+        <p>Para cualesquiera $p$ y $q$ dos vectores en $\mathbb{R}^n$, se satisface la desigualdad.
            $$
            |\langle p,q \rangle| \leq \|p\|\|q\|.
            $$
         </p> 
         <p>
-           Sugerencia: considera la función $f(t)=\|p+tq\|^2$, $t\in \mathbb{R}$. Prueba que $f$ es una
-           cuadrática cuya gráfica
-           siempre está por arriba del eje horizontal y finalmente  encuentra su discriminante.
+           Considera la función $f(t):=\|p+tq\|^2$, $t\in \mathbb{R}$. Prueba que $f$ es una
+           cuadrática cuya gráfica siempre está por arriba del eje horizontal y finalmente 
+           encuentra su discriminante.
         </p>  
 
 
@@ -358,7 +358,7 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
-      <p><b>Aún otra demostración de Cauchy-Schwartz</b>
+      <p><b>Aún más,otra demostración de Cauchy-Schwartz</b>
         <p>
             Sea $v$ un vector arbitrario y $u$ un vector unitario, en un espacio con producto interior.
         </p>
