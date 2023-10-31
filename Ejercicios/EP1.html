@@ -979,11 +979,34 @@
 
 
         <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio </h1>
-          <p> Dado un vector $w\ne 0$, la proyección sobre la recta generada por $w$,  está dada por
-            $$
-            P_w(v)=\frac{\langle v, w \rangle }{\|w\|^2}w.
-            $$
-            También se llama la proyección ortogonal  a la recta generada por \(w\).</p>
+        <p>Demuestra que:
+        </p> 
+       <ol>
+        <li>
+            $P_w$ es una función lineal.
+        </li>
+        <li>
+            $P_w(w)=w$.
+        </li>
+        <li>
+            Considera las proyecciones  $P_w:\mathbb{R}^2 \to \mathbb{R}^2$, con
+            $w=(1,0)$ y $w=(0,1)$. Encuentra  las matrices de $2\times 2$ asociadas a estas funciones lineales.
+        </li>
+        <li>
+            Demuestra que, para todo $v$, $P_w(v)$ es ortogonal a $v-P_w(v)$.
+        </li>
+        <li>
+            Denotemos \(L\) la recta generada por \(w\) y fijemos \(q\in L\). Por \(L'\) denotamos 
+            la recta que pasa por \(q\) y que es perpendicular a \(L\). Prueba que para toda 
+            \(p\in L'\), \(P_w(p)=q\).
+        </li>
+        <li>
+            Demuestra que el mínimo de $\| tw - v  \|$, variando $t\in \mathbb{R}$, se alcanza precisamente
+            cuando $t=\frac{\langle v, w \rangle }{\|w\|^2}$. 
+            <p>
+                Lo anterior se puede interpretar diciendo que  la proyección ortogonal
+                de $v$ en $w$ es el punto más cercano a $v$ que cae dentro de la recta generada por $w$.
+            </p>
         </div>
 
 
