@@ -16,30 +16,32 @@
 
     
 
-   <!-- Next part is for new coomands -->
-   <script>
-    window.MathJax = {
-      tex: {
-        macros: {
-          sen: "\\operatorname{sen}",
-          seg: ["\\overrightarrow{#1}", 1]
-        },
-        tags: "ams" /* this part is for numbered equations */
-      }
-    };
-  </script>
-
-  <!-- This part is for using single $ for latex input, instead of \(\) -->
-  <script>
-      MathJax = {
-      tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
+    <!-- Next part is for new coomands -->
+    <script>
+      window.MathJax = {
+        tex: {
+          macros: {
+            sen: "\\operatorname{sen}",
+            seg: ["\\overrightarrow{#1}", 1],
+            id: "\\operatorname{id}",
           },
-      svg: {
-          fontCache: 'global'
-      }
-  };
+          tags: "ams", /* this part is for numbered equations */
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
     </script>
+
+    <!-- This part is for using single $ for latex input, instead of \(\) -->
+    <!--<script>
+        MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+    </script>-->
 
     
     <!-- This part restart counter of cards to start at n+1 -->
@@ -48,7 +50,7 @@
         counter-reset: sectionCounter 1 subsectioncounter ;
       } */
       h1.page-title-ejercicios-propuestos{
-        counter-reset: semanaCounter 2 sectionCounter  subsectionCounter;
+        counter-reset: semanaCounter 1 sectionCounter  subsectionCounter;
       }
     </style>
 
@@ -93,14 +95,305 @@
         -->
 
       <!-- This part is for title in tab-->
+        
             
       <title>Ejercicios propuestos segundo examen parcial</title>
       </head>  
 
 
 
-  <body class="fondo-body" ><h1 class="page-title-ejercicios-propuestos"> Ejercicios propuestos segundo examen parcial </h1>   
+  <body class="fondo-body" ><h1 class="page-title-ejercicios-propuestos"> Ejercicios propuestos segundo examen parcial </h1>  
 
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+          <p>Para las siguientes funciones, describe los conjuntos de nivel para los valores dados.</p>
+          <ol>
+            <li>$f(x,y)=x+y$, $c=-1,0,1.$</li><br>
+            <li>$f(x,y)=x^2+y^2$, $c=-1,0,1.$</li><br>
+            <li>$f(x,y)=\sqrt{xy}$, $c=-1,0,1.$</li><br>
+            <li>$f(x,y)=2x^2+4y^2$, $c=-2,0,2$.</li><br>
+            <li>$f(x,y)=x^2-y^2$, $c=-3,0,3$.</li><br>
+            <li>$f(x,y)=5x+7y$, $c=-5,0,7$.</li><br>
+            <li>$f(x,y)=(1 + x + y )^{2}$, $c=-1,0,1.$</li><br>
+            <li>$f(x,y)=1 - |x| - |y|$, $c=-1,0,1.$</li><br>
+            <li>$f(x,y)=(x+y)^2$, $c=-4,0,4$.</li><br>
+            <li>$f(x,y)=(2x-y)^2$, $c=-1,0,2$.</li><br>
+            <li>$f(x,y)=y+\log(x^2)$, $c=-3,0,3$.</li><br>
+            <li>$f(x,y)=y+3e^x$, $c=-2,0,2$.</li><br>
+            <li>$f(x,y)=\min\{|x|,|y| \}$, $c=0,1,2$.</li>
+          </ol>
+    </div>
+
+    
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>Construye algunos conjuntos de nivel para las siguientes funciones:</p>
+      <ol>
+        <li>$f(x,y)=x+y$,</li><br>
+        <li>$f(x,y)=\sqrt{xy}$,</li><br>
+        <li>$f(x,y)=(1 + x + y )^{2}$,</li><br>
+        <li>$f(x,y)=1 - |x| - |y|$,</li><br>
+        <li>$f(x,y)= \displaystyle{\frac{y}{x^{2}}}$.</li><br>
+        <li>$f(x,y)= \displaystyle{\frac{y}{\sqrt{x}}}$.</li><br>
+        <li>$f(x,y)= \displaystyle{\frac{2x}{x^{2} + y^{2}}}$.</li><br>
+      </ol>
+    </div>
+
+    
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+        Para las siguientes funciones, describe los conjuntos de nivel para los valores dados.
+    </p>
+    <ol>
+        <li>
+            $f(x,y,z)=x^2+y^2$, $c=-1,0,1$.
+        </li><br>
+        <li>
+            $f(x,y,z)=x^2+y^2+z^2$, $c=-1,0,1$.
+        </li><br>
+        <li>
+            $f(x,y,z)=x^2+y^2-z^2$, $c=-2,0,2$.
+        </li><br>
+        <li>
+            $f(x,y,z)=xyz$, $c=-4,0,4$.
+        </li><br>
+        <li>
+            $f(x,y,z)=\log(x)+\log(y)+\log(z)$, $c=-4,0,4.$
+        </li><br>
+        <li>
+            $f(x,y,z)=e^{x^2}e^{y^2}e^{z^2}$, $c=-5,0,5$.
+        </li><br>
+        <li>
+            $f(x,y,z)=\max\{ |x|, |y|, |z| \}$, $c=-2,0,2$.
+        </li><br>
+        <li>
+            $f(x,y,z)=2x-y+3z$, $c=-1,0,1$.
+        </li>
+    </ol>  
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>Construye algunos conjuntos de nivel para las siguientes funciones:</p>
+      <ol>
+        <li>$f(x,y,z)=x+y + z$,</li><br>
+        <li>$f(x,y)=x^{2} + y^{2} - z^{2}$,</li><br>
+      </ol>
+    </div>
+    
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+        Construye una función $f(x,y)$, tal que el conjunto de nivel para $c=1$ consiste en dos "piezas". 
+      </p>
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+          <p>
+              Construye una función $f(x,y)$, tal que el conjunto de nivel para $c=0$ consiste 
+              en una cantidad infinita de "piezas".
+          </p>
+      </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+        Para cada una de las siguientes trayectorias, da un bosquejo de la curva que generan.
+        <ol>
+            <li>
+                $\gamma(t)=(\cos(t), \sen(t))$, $t\in \mathbb{R}$.
+            </li><br>
+            <li>
+                $\gamma(t)=(\cos(t), \sen(t), t)$, $t\in \mathbb{R}$.
+            </li><br>
+            <li>
+                $\gamma(t)=(t,t^2)$, $t\in \mathbb{R}$.
+            </li><br>
+            <li>
+                $\gamma(t)=(\cos(t), \sen(t), e^t)$, $t\in \mathbb{R}$.
+            </li><br>
+            <li>
+                $\gamma(t)=2(\sen(\pi/4)\cos(t), \sen(\pi/4)\sen(t), \cos(\pi/4))$, $t\in \mathbb{R}$.
+            </li>
+        </ol>
+    </p>         
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+        Dibuja cada uno de los siguientes campos vectoriales.
+      </p>
+
+      <ol>
+          <li>
+              $F(x,y)=(x,y)$, $(x,y)\in \mathbb{R}^2$,
+          </li>
+          <li>
+              $F(x,y)=\frac{1}{\|(x,y)\|}(x,y)$, $(x,y) \ne (0,0)$.
+          </li>
+          <li>
+              $F(x,y)=(-y,x)$, $(x,y)\in \mathbb{R}^2$.
+          </li>
+          <li>
+              $F(x,y,z)=\frac{-1}{\|(x,y,z)\|^3}(x,y,z)$, $(x,y,z)\ne (0,0,0)$.
+          </li>
+      </ol>          
+        
+    </div>
+
+
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p> Demuestra que:
+        <ol>
+            <li>
+                $\frac{|xy|}{|x|+|y|} \leq |x|$.
+            </li>
+            <li>
+                Usa el inciso anterior para probar $\lim_{(x,y)\to (0,0)}\frac{xy}{|x|+|y|}=0$.
+            </li>
+        </ol>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>Encuentra los siguientes límites.
+        <ol>
+            <li>
+                $\lim_{(x,y)\to (0,0)} \frac{\sen(xy)}{xy}$.
+            </li>
+            <li>
+                $\lim_{(x,y) \to (0,0)} \frac{\cos(x^4+y^4)-1}{x^4+y^4}.$
+            </li>
+            <li>
+                $\lim_{(x,y)\to (0,0)} \frac{\cos(x^2+y^2)-1}{x^2+y^2+1}.$
+            </li>
+            <li>
+                $\lim_{(x,y)\to (0,0)} \frac{x^2}{(x^2+y^2)^{1/4}}$.
+            </li>
+            <li>
+                $\lim_{(x,y)\to (0,0)} \frac{5x^2y+x^2+y^2}{x^2+y^2}$.
+            </li>
+        </ol>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+      </p>          
+        
+    </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
       <p>
