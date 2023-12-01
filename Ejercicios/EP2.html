@@ -371,34 +371,94 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
-      <p> 
+      <p> Si \((\mathbf{p}_n)_{n=1}^\infty\) es una sucesión en $\mathbb{R}^{n}$ convergente, entonces existe 
+        \(M>0\) tal que \(\|\mathbf{p}_n\| \leq M\), para toda \(n\in \mathbf{N}\).
       </p>          
         
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
-      <p> 
+      <p> Sean $(\mathbf{p}_n)_{n=1}^\infty$ y $(\mathbf{q}_n)_{n=1}^\infty$ dos sucesiones en 
+        \(\mathbf{R}^d\) convergentes tales que $\displaystyle{\lim_{n\to \infty}\mathbf{p}_n=\mathbf{L}_{1}}$ y $ \displaystyle{\lim_{n\to \infty}\mathbf{q}_n=\mathbf{L}_{2}}$.        
       </p>          
+      <p>Demuestra que
+        \[
+        \lim_{n\to \infty} (\alpha \mathbf{p}_n+\mathbf{q}_n) = \alpha \mathbf{L}_{1} + \mathbf{L}_{2}
+        \]
+      </p>
+      <p><b>Sugerencia:</b> Primero prueba que se satisface:
+        \[
+        \| (\alpha \mathbf{p}_n+\mathbf{q}_n)-(\alpha \mathbf{L}_{1} + \mathbf{L}_{2})\| \leq
+        |\alpha|\| \mathbf{p}_n-\mathbf{L}_{1}\|+\|\mathbf{q}_n-\mathbf{L}_{2} \| 
+        \]
+
+      </p>
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p> Sean $(\mathbf{p}_n)_{n=1}^\infty$ y $(\mathbf{q}_n)_{n=1}^\infty$ dos sucesiones en 
+        \(\mathbf{R}^3\) convergentes tales que $\displaystyle{\lim_{n\to \infty}\mathbf{p}_n=\mathbf{L}_{1}}$ y $ \displaystyle{\lim_{n\to \infty}\mathbf{q}_n=\mathbf{L}_{2}}$.        
+      </p>          
+      <p>Demuestra que  \[
+        \lim_{n\to \infty} \mathbf{p}_n \times \mathbf{q}_n = \mathbf{L}\times \mathbf{L}'.
+        \]
+      </p>
+      <p><b>Sugerencia:</b> Primero prueba 
+        \begin{eqnarray*}
+        \|\mathbf{p}_n \times \mathbf{q}_n-\mathbf{L}\times \mathbf{L}' \| &\leq &
+        \| (\mathbf{p}_n-\mathbf{L})\times \mathbf{q}_n\|+ \|\mathbf{L}\times (\mathbf{q}_n-\mathbf{L}') \| 
+        \end{eqnarray*}
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>
+        Sea \((\mathbf{p}_n)_{n=1}^\infty\) una sucesión de puntos en \(\mathbf{R}^d\) convergente, con límite $\mathbf{L}= (\ell_{1}, \ldots, \ell_{d}) \in \mathbf{R}^d$. Prueba que \(\displaystyle{\lim_{n\to \infty}\mathbf{p}_n=\mathbf{L}}\) si y sólo si, para toda entrada  \(i=1,\dots, d\), \(\displaystyle{\lim_{n\to \infty} \mathbf{p}_n^{(i)}=\ell_{i}}\).
+    </p>  
+    <p>Donde se denotan las entrada de los vectores $\mathbf{p}_{n}$ como  $\mathbf{p}_{n} := \left(p_{n}^{(1)}, p_{n}^{(2)}, \ldots, p_{n}^{(d)}\right)$</p>
+    </div>
+
+    
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
+      <p>Sea \(f:\mathbb{R}^2 \to \mathbb{R}\) definida como:
+        \[
+        f(x,y) := \left\{ 
+        \begin{array}{cc}
+         1, & (x,y)\in \mathbb{Q}\times \mathbb{Q} \\
+        0, & \textrm{en otro caso}
+        \end{array}
+        \right.
+        \]
+        Prueba que \(\lim_{(x,y)\to (0,0)}f(x,y)=0\) pero 
+        para todo \(x\neq 0\) fijo, \(\lim_{y\to 0} f(x,y)\) no existe.
+    </p>
+    <p><b>Observación:</b> Este ejercicio muestra que a pesar de que el límite puede exisitr 
+        los límites iterados no existen.
+    </p>
+
         
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
       <p>
-      </p>          
+        Sea \(f \colon \hat{B}_r(\mathbf{p}_0)\subseteq \mathbb{R}^{n}  \to \hat{B}_{r'}(\mathbf{L}) \subseteq \mathbb{R}^{m} \) una función definida en una vecindad perforada de \(p_0\) tal que 
+        \[
+            \lim_{p\to p_0} f(p)=L
+        \]
+        Si \(g \colon \hat{B}_{r'}(\mathbf{L})\subseteq \mathbb{R}^{m}  \to \mathbb{R}^{d}\) es una función definida en una vecindad perforada de \(L\) tal que
+        \[
+        \lim_{q\to L} g(q)=M
+        \]
+        Prueba que para la función $g\circ f \colon \hat{B}_r(\mathbf{p}_0)\subseteq \mathbb{R}^{n} \to \mathbb{R}^{d}  $ se satisface:
+        \[
+        \lim_{p\to p_0}  (g\circ f)(p)=M.
+        \]
+    </p>        
         
     </div>
 
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
-      <p>
-      </p>          
-        
-    </div>
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
-      <p>
-      </p>          
-        
-    </div>
+  
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1>
       <p>
