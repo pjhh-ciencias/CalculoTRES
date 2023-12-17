@@ -110,136 +110,184 @@
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
+      <p>Sean $d \in \mathbb{N}$, $i\in \{1,\dots, d\}$ arbitrario pero fijo y $\varepsilon \in \mathbb{R}$
         <ol>
-
-        
-          <li>
-              En \(\mathbb{R}^d\) fijamos un \(i=1,\dots, n\) y para \(\varepsilon \in \mathbb{R}\) definimos 
+          <li> Consideremos los conjuntos $U$ y $V$ en  \(\mathbb{R}^d\) definidos como:
               \[
-              U=\{ (x_1,\dots, x_d)\in \mathbf{R}^n: x_i > \varepsilon \}
+              U:=\{ (x_1,\dots, x_d)\in \mathbf{R}^d: x_i > \varepsilon \}
               \]
-              Entonces \(U\) es abierto. 
-          </li>
-          <p>
-              Nota: de manera similar el conjunto \(\{(x_1,\dots, x_d)\in \mathbf{R}^n: x_i < \varepsilon \}\)
-              es abierto.
-          </p>
-          <li>
-              El conjunto 
+              $$V := \{(x_1,\dots, x_d)\in \mathbf{R}^d: x_i < \varepsilon \}$$
+              Prueba que $U$ y  $V$ son conjuntos abiertos en \(\mathbb{R}^d\).
+          </li><br>
+          <li>Consideremos los conjuntos $F$ y $G$ en  \(\mathbb{R}^d\) definidos como:
               \[
-              F=\{ (x_1,\dots, x_d)\in \mathbf{R}^n: x_i \geq  \varepsilon \}
+              F:=\{ (x_1,\dots, x_d)\in \mathbf{R}^n: x_i \geq  \varepsilon \}
               \]
-              no es abierto.
+              \[
+              G:=\{ (x_1,\dots, x_d)\in \mathbf{R}^n: x_i \leq  \varepsilon \}
+              \]
+              Prueba que los conjuntos $F$ y $G$ no son abiertos en \(\mathbb{R}^d\).
           </li>
           </ol>
-        
       </p>
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p> EL conjunto 
+      <p>Sean $p_{0} \in \mathbb{R}^{n}$ y $r>0$. Prueba que el conjunto 
         \[
-        B_r(p_0)=\{p\in \mathbb{R}^n: \| p-p_0\| > r \}
+        \tilde{B}_r(p_0):=\{p\in \mathbb{R}^n: \| p-p_0\| > r \}
         \]
-        es abierto.
+        es un conjunto abierto en $\mathbb{R}^{n}$.
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Prueba que los siguientes subconjuntos son cerrados en el espacio respectivo.</p>
+      <ol>
+          <li>\([a,b] \subseteq  \mathbb{R}\).</li><br>
+          <li>\( \{ p\in \mathbb{R}^d: \| p-p_0\| \leq r\} \subseteq  \mathbb{R}^{d}\).</li><br>
+          <li> Para \(a\in \mathbb{R}\) fijo, \(\{ (x,y,z)\in \mathbb{R}^3: x=a \} \subseteq  \mathbb{R}^{3}\).</li>
+      </ol>
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Sean $A \subseteq \mathbb{R}^{n}$ y $p_{0} \in \mathbb{R}^{n}$. Definamos 
+        $$A + p_{0} := \{ p + p_{0} \colon  p \in \in A \} \subseteq \mathbb{R}^{n}.$$
+        Más generalmente, si $B\subseteq \mathbb{R}^{n}$ se define 
+        $$A + B :=  \{ p + q \colon  p \in  A \text{ y } q \in B  \} \subseteq \mathbb{R}^{n}$$
+      </p>
+      <p>Prueba que si $A$ es un conjunto abierto, entonces
+        <ol>
+          <li> $A + p_{0}$  es un subconjunto abierto en $\mathbb{R}^{n}$.</li><br>
+          <li> $A + B$  es un subconjunto abierto en $\mathbb{R}^{n}$.</li><br>
+        </ol>
+      </p>
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Dados $A,B\subseteq \mathbb{R}$, se define 
+        $$A \cdot B := \{a\cdot b \colon a \in A, b\in B\}$$
+        Si $A$ es un conjunto abierto, ¿será cierto que $A\cdot B$ es un conjunto abierto en \mathbb{R}?
+        Justificar tu respuesta.
         
       </p>
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p> <p>
-        Prueba que los siguientes subconjuntos son cerrados.
-    </p>
-    <ol>
-        <li>
-            \([a,b]\).
-        </li>
-        <li>
-            \( \{ p\in \mathbb{R}^d: \| p-p_0\| \leq r\}\).
-        </li>
-        <li> 
-            Para \(a\in \mathbb{R}\) fijo, 
-            \(\{ (x,y,z)\in \mathbb{R}^3: x=a \}\).
-        </li>
-    </ol>
-        
+      <p>Sea  $A:= \{\displaystyle{\left(x, \frac{1}{x} \right) \colon x \in \mathbb{R}^{+}} \}$.
+        Prueba que $A$ es un subconjunto cerrado pero no abierto en $\mathbb{R}^{2}$
       </p>
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>   Da un ejemplo que muestre que la unión arbitraria de conjuntos cerrados
+      <p>Sean $p_{0}\in \mathbb{R}^{n}$ y $r>0$. Prueba que la esfera centrada en $p_{0}$ y radio $r$
+        definida como el  conjunto
+        $$S(p_{0},r):= \{p \in \mathbb{R}^{n} \colon \|p-p_{0} = r \| \}$$
+        es un subconjunto cerrado pero no abierto en $\mathbb{R}^{n}$
+      </p>
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Para cada uno de los siguientes subconjuntos indicar cuales de estos conjuntos son abiertos,
+        no son abiertos, son cerrados, no son cerrados en $\mathbb{R}$. Justifica tus respuestas.
+      </p>
+      <p>
+        <ol>
+          <li>$\displaystyle{\bigcup_{n=1}^{\infty} (n,n+1)}$</li><br>
+          <li>$(\infty,a)\cup (b,\infty)$ donde $a,b \in \mathbb{R}$</li><br>
+          <li>$(\infty,a)\cup [b,\infty)$ donde $a,b \in \mathbb{R}$</li><br>
+          <li>$\mathbb{Z}$ donde $a,b \in \mathbb{R}$ con $a\leq b$</li><br>
+          <li>$(a,b]$  donde $a,b \in \mathbb{R}$ con $a\leq b$</li><br>
+          <li>$\mathbb{Q}$</li><br>
+          <!-- <li></li><br>
+          <li></li><br> -->
+        </ol>
+      </p>
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Prueba que los siguientes conjuntos
+        <ol class="two-column">
+          <li>$\{(x,y) \in \mathbb{R}^{2} | x=0  \text{ y } y \in (a,b] \}$</li><br>
+          <li>$\{(x,y) \in \mathbb{R}^{2} | x>0 \} \cup \{(0,0) \}$</li><br>
+        </ol>
+      </p>
+      <p>No son abiertos ni cerrados en $\mathbb{R}^{2}$</p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Prueba que la unión arbitraria de conjuntos cerrados
         no es necesariamente cerrado.
-        
       </p>
+      <p><b>Sugerencia:</b> Da un ejemplo.</p>
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p> Sean \(F_1\subset \mathbb{R}^n, F_2\subset \mathbb{R}^m\) subconjuntos cerrados. Entonces 
+      <p> Sean \(F_1\subset \mathbb{R}^n, F_2\subset \mathbb{R}^m\) subconjuntos cerrados. Prueba que  
         \(F_1\times F_2 \subset \mathbb{R}^{n+m}\) es cerrado.
-        
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Sean $F_{1}, F_{2} \subseteq \mathbb{R}$ no vacios. Prueba que si $F_{1} \times F_{2}$ es 
+        un subconjunto cerrado en $\mathbb{R}^{2}$,  entonces $F_{1}$ y $F_{2}$ son sunconjuntos 
+        cerrados en $\mathbb{R}$.
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Encuentra el interior de los siguientes subconjuntos en los espacios respectivos.
+    </p>
+      <ol>
+        <li>\(\{\frac{1}{n}: n\in \mathbb{N} \} \subseteq \mathbb{R}\).</li><br>
+        <li>\([a,b] \subseteq \mathbb{R}\).</li><br>
+        <li>\(\{ (x,y)\in \mathbb{R}^2: y=0, x\in [a,b]\} \subseteq \mathbb{R}^{2}\).</li><br>
+        <li>\(\{p\in \mathbb{R}^d: \| p-p_0\| \leq r\}\subseteq \mathbb{R}^{d}\), donde \(p_0\in \mathbb{R}^d\) y \(r>0\) .</li>
+      </ol>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Prueba que el interior de los siguientes subconjuntos en los espacios respectivos.
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
+      <p>Sea $A \subseteq \mathbb{R}^{d}$. Prueba que $\mathrm{int}(A)$ es el conjunto abierto más
+        grande contenido en \(A\), es decir, si \(U  \subseteq \mathbb{R}^{d}\) es abierto y 
+        \(U\subseteq A\) entonces \(U\subseteq \mathrm{int}(A)\).
       </p>
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
       <p>
-        Encuentra el interior de los siguientes conjuntos.
-    </p>
-    <ol>
-        <li>
-            \(\{\frac{1}{n}: n\in \mathbb{N} \}\).
-        </li>
-        <li>
-            \([a,b]\).
-        </li>
-        <li>
-            \(\{ (x,y)\in \mathbb{R}^2: y=0, x\in [a,b]\}\).
-        </li>
-        <li>
-            \(\{p\in \mathbb{R}^d: \| p-p_0\| \leq r\}\), donde
-            \(p_0\in \mathbb{R}^d\) y \(r>0\).
-        </li>
-    </ol>
-    </div>
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        Además prueba que         es el conjunto abierto más grande contenido en \(A\), es decir, 
-        si \(U\) es abierto y \(U\subseteq A\) entonces \(U\subseteq A^o\).
-    </p>
-    </div>
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        Encuentra los puntos de acumulación de los siguientes conjuntos. 
-    </p>
-    <ol>
-      <li>$[0,1]$</li><br>
-      <li>$[0,1] \cap \mathbb{Q}$</li><br>
-      <li>\(\mathbb{N} \subseteq \mathbb{R}\).</li><br>
-      <li>\(\mathbb{Q}\subseteq \mathbb{R}\).</li><br>
-      <li>\(\{(x,y)\in \mathbb{R}^2: x=1, y\in \mathbb{Q}\}\).</li><br>
-      <li>\(B_r(p_0)=\{ p\in \mathbb{R}^d: \|p-p_0\| < r\}\).</li><br>
-      <li>Sea $A:= \{p_{2}, \ldots , p_{n} \} \subseteq \mathbb{R}^{n}$ con $n \in \mathbb{N}$.  </li><br>
-      <li>Fijamos un punto \((a_1,\dots, a_d)\in \mathbb{R}^d\) y un número \(c\in \mathbb{R}\).
-        Considera el conjunto \(\{ (x_1,\dots, x_d)\in \mathbb{R}^d: \sum_{i=1}^d x_ia_i < c \}\).
-      </li><br>
-    </ol>
-    <p>
-        Nota: intuitivamente un punto de acumulación de un conjunto \(A\) es un punto 
+        Encuentra los puntos de acumulación de los siguientes subconjuntos en los respectivos espacios. </p>
+      <ol>
+        <li>$[0,1]  \subseteq \mathbb{R}$</li><br>
+        <li>$[0,1] \cap \mathbb{Q} \subseteq \mathbb{R}$</li><br>
+        <li>\(\mathbb{N} \subseteq \mathbb{R} \).</li><br>
+        <li>\(\mathbb{Q}\subseteq \mathbb{R}\).</li><br>
+        <li>\(\{(x,y)\in \mathbb{R}^2: x=1, y\in \mathbb{Q}\} \subseteq \mathbb{R}^{2}\).</li><br>
+        <li>\(B_r(p_0)=\{ p\in \mathbb{R}^d: \|p-p_0\| < r\} \subseteq \mathbb{R}^{d}\).</li><br>
+        <li>$\{p_{2}, \ldots , p_{n} \} \subseteq \mathbb{R}^{d}$ con $n,d \in \mathbb{N}$.  </li><br>
+        <li>\(\displaystyle{\left\{ (x_1,\dots, x_d)\in \mathbb{R}^d: \sum_{i=1}^d x_ia_i < c \right\}}\subseteq \mathbb{R}^{d}\) 
+          donde \((a_1,\dots, a_d)\) es un punto en $\mathbb{R}^d$ y \(c\in \mathbb{R}\).
+        </li><br>
+      </ol>
+      <p><b>Nota:</b> Intuitivamente un punto de acumulación de un conjunto \(A\) es un punto 
         donde a su alrededor siempre hay una infinidad de puntos de \(A\). 
-    </p>
+      </p>
     </div>
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p><p>
-        Si \(p\) es un punto de acumulación de \(A\) entonces existe \((p_n)_{n=1}^\infty\)
+      <p>Prueba que si \(p\) es un punto de acumulación de \(A\) entonces existe \((p_n)_{n=1}^\infty\)
         una sucesión de puntos de \(A\) tal que 
         \[
             \lim_{n\to \infty}\| p_n-p\|=0.
         \]
-    </p>
-        
       </p>
     </div>
 
@@ -250,46 +298,8 @@
       <p><b>Nota:</b> A esta propiedad se le conoce como <b>propiedad de Hausdorff</b> o bien $\mathrm{T}_{2}$</p>
     </div>
 
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        
-      </p>
-    </div>
 
 
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        
-      </p>
-    </div>
-
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        
-      </p>
-    </div>
-
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        
-      </p>
-    </div>
-
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        
-      </p>
-    </div>
-
-
-    <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
-      <p>
-        
-      </p>
-    </div>
 
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
