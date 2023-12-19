@@ -202,7 +202,7 @@
       <p>Prueba que los siguientes conjuntos
         <ol class="two-column">
           <li>$\{(x,y) \in \mathbb{R}^{2} | x=0  \text{ y } y \in (a,b] \}$</li><br>
-          <li>$\{(x,y) \in \mathbb{R}^{2} | x>0 \} \cup \{(0,0) \}$</li><br>
+          <li>$\{(x,y) \in \mathbb{R}^{2} | x>0 \} \cup \{(0,0) \}$</li>
         </ol>
       </p>
       <p>No son abiertos ni cerrados en $\mathbb{R}^{2}$</p>
@@ -242,9 +242,8 @@
           <li>Da un ejemplo de subconjuntos en $\mathbb{R}$ para mostrar que
             $\mathrm{int}(A) \cup \mathrm{int}(B) \neq \mathrm{int}(A \cup B)$</li><br>
           <li>$\mathrm{int}(A) \times \mathrm{int}(B) = \mathrm{int}(A\times B)$</li><br>
-          <li>$A^{'} \subseteq B^{'}$</li><br>
-          <li></li><br>
-          
+          <li>$A^{'} \subseteq B^{'}$</li>
+          <!-- <li></li><br> -->          
         </ol>
       </p>
     </div>
@@ -269,18 +268,20 @@
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
       <p>Encuentra los puntos de acumulación de los siguientes subconjuntos en los respectivos espacios. </p>
-      <ol>
-        <li>$[0,1]  \subseteq \mathbb{R}$</li><br>
-        <li>$[0,1] \cap \mathbb{Q} \subseteq \mathbb{R}$</li><br>
-        <li>\(\mathbb{N} \subseteq \mathbb{R} \).</li><br>
-        <li>\(\mathbb{Q}\subseteq \mathbb{R}\).</li><br>
-        <li>\(\{(x,y)\in \mathbb{R}^2: x=1, y\in \mathbb{Q}\} \subseteq \mathbb{R}^{2}\).</li><br>
-        <li>\(B_r(p_0)=\{ p\in \mathbb{R}^d: \|p-p_0\| < r\} \subseteq \mathbb{R}^{d}\).</li><br>
-        <li>$\{p_{2}, \ldots , p_{n} \} \subseteq \mathbb{R}^{d}$ con $n,d \in \mathbb{N}$.  </li><br>
-        <li>\(\displaystyle{\left\{ (x_1,\dots, x_d)\in \mathbb{R}^d: \sum_{i=1}^d x_ia_i < c \right\}}\subseteq \mathbb{R}^{d}\) 
-          donde \((a_1,\dots, a_d)\) es un punto en $\mathbb{R}^d$ y \(c\in \mathbb{R}\).
-        </li><br>
-      </ol>
+      <p>
+        <ol>
+          <li>$[0,1]  \subseteq \mathbb{R}$</li><br>
+          <li>$[0,1] \cap \mathbb{Q} \subseteq \mathbb{R}$</li><br>
+          <li>\(\mathbb{N} \subseteq \mathbb{R} \).</li><br>
+          <li>\(\mathbb{Q}\subseteq \mathbb{R}\).</li><br>
+          <li>\(\{(x,y)\in \mathbb{R}^2: x=1, y\in \mathbb{Q}\} \subseteq \mathbb{R}^{2}\).</li><br>
+          <li>\(B_r(p_0)=\{ p\in \mathbb{R}^d: \|p-p_0\| < r\} \subseteq \mathbb{R}^{d}\).</li><br>
+          <li>$\{p_{1}, \ldots , p_{n} \} \subseteq \mathbb{R}^{d}$ con $n,d \in \mathbb{N}$.  </li><br>
+          <li>\(\displaystyle{\left\{ (x_1,\dots, x_d)\in \mathbb{R}^d: \sum_{i=1}^d x_ia_i < c \right\}}\subseteq \mathbb{R}^{d}\) 
+            donde \((a_1,\dots, a_d)\) es un punto en $\mathbb{R}^d$ y \(c\in \mathbb{R}\).
+          </li>
+        </ol>
+      </p>
       <p><b>Nota:</b> Intuitivamente un punto de acumulación de un conjunto \(A\) es un punto 
         donde a su alrededor siempre hay una infinidad de puntos de \(A\). 
       </p>
@@ -362,9 +363,8 @@
             <li>$f(x,y)=\mathrm{cos}(xy^{2})$ en $(\pi,\frac{1}{2})$.</li><br>
             <li>$f(x,y)=x\mathrm{e}^{y}$ en $(1,0)$ .</li><br>
             <li>$f(x,y)=x\mathrm{ln}(xy)$ en $(1,\mathrm{e})$ .</li><br>
-            <li>$f(x,y)=\frac{x^{2}}{x + 2y}$ en $(4,2)$ .</li><br>
-            <li>$f(x,y)=x^{y}$ en $(2,2)$ .</li><br>
-
+            <li>$f(x,y)=\displaystyle{\frac{x^{2}}{x + 2y}}$ en $(4,2)$ .</li><br>
+            <li>$f(x,y)=x^{y}$ en $(2,2)$ .</li>
         </ol>
     </p>
     </div>
@@ -384,23 +384,16 @@
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
       <p>  Para cada una de las siguientes funciones $f(x,y)$, encuentra el dominio de definición
         de las funciones $\partial_xf(x,y)$ y $\partial_yf(x,y)$.
+      </p>
     
         <ol class="two-column">
-            <li>
-                $f(x,y)=\log(x^2+y^2+1)$.
-            </li>
-            <li>
-                $f(x,y)=\frac{1}{\sqrt{x^2+y^2}}$.
-            </li>
-            <li>
-                $f(x,y)=y\sqrt{1-x^2-y^2}$.
-            </li>
-            <li>
-                $f(x,y)=\frac{x}{y}$.
-            </li>
+            <li>$f(x,y)=\log(x^2+y^2+1)$.</li><br>
+            <li>$f(x,y)=\displaystyle{\frac{1}{\sqrt{x^2+y^2}}}$.</li><br>
+            <li>$f(x,y)=y\sqrt{1-x^2-y^2}$.</li><br>
+            <li>$f(x,y)=\displaystyle{\frac{x}{y}}$.</li>
         </ol>
         
-      </p>
+      
     </div>
 
 
@@ -418,15 +411,12 @@
        Define la función $f:\mathbb{R}^2 \to \mathbb{R}$ dada por $f(x,y)=y^2D(x)$.
     </p>
     <p>
-        <ol>
-            <li>
-                Demuestra que, para todo puntos $(x_0,y_0)$, $\partial_yf(x_0,y_0)$ siempre existe y calcula su valor.
-            </li>
-            <li>
-                Además, prueba que si $y_0\ne 0$, $\partial_xf(x_0,y_0)$ no existe y que para todo
-                $x_0$, $\partial_yf(x_0,0)=0$. 
-            </li>
-        </ol>
+      <ol>
+          <li>Demuestra que, para todo puntos $(x_0,y_0)$, $\partial_yf(x_0,y_0)$ siempre existe y calcula su valor.
+          </li><br>
+          <li>Además, prueba que si $y_0\ne 0$, $\partial_xf(x_0,y_0)$ no existe y que para todo
+              $x_0$, $\partial_yf(x_0,0)=0$. </li>
+      </ol>
     
     </p>
     </div>
@@ -452,7 +442,7 @@
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
       <p>
-        Para cada una de las siguientes funciones calcula $\partial_x\left( \int_0^x f(s,y)ds \right)$. 
+        Para cada una de las siguientes funciones calcula $\partial_x\left(\displaystyle{\int_0^x f(s,y)ds }\right)$. 
         ¿ Encuentras algún patron?:
         <ol class="two-column">
             <li>
@@ -471,20 +461,13 @@
 
     <div class="nota-box"><h1 class="number-title-ejercicio"> Ejercicio</h1> 
       <p>
-        Para cada una de las siguientes funciones calcula,  $\int_0^x(\partial_s f(s,y))ds$.
+        Para cada una de las siguientes funciones calcula,  $\displaystyle{\int_0^x(\partial_s f(s,y))ds}$.
         ¿ Encuentras algún patron?
-     
-         <ol class="two-column">
-             <li>
-                 $f(x,y)=x^3y^2+xy+x^2y$
-             </li><br>
-             <li>
-                 $f(x,y)=e^{x^2+y}$
-             </li><br>
-             <li>
-                 $f(x,y)=\sen(xy)$
-             </li>
-         </ol>
+        <ol class="two-column">
+          <li>$f(x,y)=x^3y^2+xy+x^2y$</li><br>
+          <li>$f(x,y)=e^{x^2+y}$</li><br>
+          <li>$f(x,y)=\sen(xy)$</li>
+        </ol>
     </p>
     </div>
 
@@ -503,11 +486,10 @@
         Para cada una de las siguientes funciones encuentra la derivada parcial con respecto 
         a la variable indicada.
         <ol>
-           <li>$f(p)=\sum_{i=1}^n p_i^2$. Calcular $\partial_{p_j}f(p)$.</li><br>
+           <li>$f(p)=\displaystyle{\sum_{i=1}^n p_i^2}$. Calcular $\partial_{p_j}f(p)$.</li><br>
            <li>$f(x)=\langle x, y \rangle$, donde $x=(x_1,\dots, x_n)$ y $y=(y_1,\dots, y_n)$ es un vector fijo. 
-               Calcular  $\partial_{x_j}f(x)$. ¿ La notación $\partial_{y_j}f(x)$ 
-               tiene sentido en este ejemplo?</li><br>
-           <li>$f(z)=\left( \sum_{i=1}^n \log(z_i^2+1) \right)^2$, donde $z=(z_1,\dots, z_n)$. Calcular $\partial_{z_j}f(z)$.</li><br>
+               Calcular  $\partial_{x_j}f(x)$. ¿ La notación $\partial_{y_j}f(x)$  tiene sentido en este ejemplo?</li><br>
+           <li>$f(z)=\left( \displaystyle{\sum_{i=1}^n \log(z_i^2+1)} \right)^2$, donde $z=(z_1,\dots, z_n)$. Calcular $\partial_{z_j}f(z)$.</li><br>
            <li>$f(x,y,z)=100x^{1/2}y^{1/4}z^{1/5}$. Calcular $\partial_xf(x,y,z), \partial_yf(x,y,z)$ y $\partial_zf(x,y,z)$.</li>
         </ol>
 
@@ -527,7 +509,7 @@
             \(f(s,t)=\cos^2(as+bt)\).
         </li><br>
         <li>
-            \(f(z,w)=\arctan\left( \frac{x+y}{1-xy} \right)\).
+            \(f(z,w)=\arctan\left(\displaystyle{ \frac{x+y}{1-xy} }\right)\).
         </li><br>
         <li>
             \(f(u,v)=e^{ue^{uv}}\).
@@ -563,7 +545,7 @@
             \(u(x,t)=\sen(kt)\sen(akt)\).
         </li><br>
         <li>
-            \(u(x,t)=\frac{t}{a^2t^2-x^2}\).
+            \(u(x,t)=\displaystyle{\frac{t}{a^2t^2-x^2}}\).
         </li><br>
         <li>
             \(u(x,t)=(x-at)^6+(x+at)^6\).
